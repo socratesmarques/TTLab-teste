@@ -1,0 +1,18 @@
+# Configuração e credenciais locais
+/.codex/
+.env
+.env.*
+!.env.example
+
+# Dependências e cache de ferramentas
+node_modules/
+__pycache__/
+.venv/
+Thumbs.db
+.DS_Store
+
+# Sessões e relatórios de testes de navegador
+/.playwright-mcp/
+/playwright/.auth/
+/playwright-report/
+/test-results/
