@@ -1,6 +1,6 @@
 # TTLab
 
-O TTLab é uma plataforma de tênis de mesa. Neste estágio, o repositório contém a preparação do ambiente. Quando houver código de aplicação, siga os comandos de build e teste documentados no README.
+O TTLab é uma plataforma de tênis de mesa. Use os comandos de build e teste do README. Ao modificar o catálogo e o modelo, confira a compatibilidade das configurações compartilhadas e salvas.
 
 ## Ferramentas de trabalho
 

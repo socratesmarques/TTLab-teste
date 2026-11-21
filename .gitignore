@@ -6,6 +6,7 @@
 
 # Dependências e cache de ferramentas
 node_modules/
+/dist/
 __pycache__/
 .venv/
 Thumbs.db
