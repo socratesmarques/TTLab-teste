@@ -25,11 +25,11 @@ describe("Catálogo e montagem", () => {
   it("só calcula montagens completas", () => expect(analyze(empty)).toBeNull());
   it("varia as faces independentemente e conserva peso e custo", () => {
     const base = analyze(starter)!,
-      changed = analyze({ ...starter, fh: { ...starter.fh!, mm: 2.2 } })!;
+      changed = analyze({ ...starter, fh: { ...starter.fh!, mm: 2.1 } })!;
     expect(changed.fh).not.toEqual(base.fh);
     expect(changed.bh).toEqual(base.bh);
     expect(changed.grams).toBeGreaterThan(base.grams);
-    expect(changed.price).toBe(380);
+    expect(changed.price).toBe(2582);
     expect(changed.balance).toBeGreaterThan(11);
   });
   it("mantém as nove escalas limitadas em todas as variantes", () => {
@@ -52,19 +52,19 @@ describe("Otimizador", () => {
     const criteria = {
       ...defaults(),
       keep: true,
-      brand: "Orla",
-      budget: 440,
+      brand: "Butterfly",
+      budget: 3000,
       sheets: "iguais",
-      hard: 45,
-      mm: 2,
+      hard: 36,
+      mm: 1.9,
     };
     const result = optimize(starter, criteria);
     expect(result.results.length).toBeGreaterThan(0);
     for (const m of result.results) {
-      expect(m.build.blade).toBe("atlas");
-      expect(m.build.fh).toEqual({ id: "flux", mm: 2, hard: 45 });
+      expect(m.build.blade).toBe(starter.blade);
+      expect(m.build.fh).toEqual({id:"butterfly-tenergy-05",mm:1.9,hard:36});
       expect(m.build.bh).toEqual(m.build.fh);
-      expect(m.stats.price).toBeLessThanOrEqual(440);
+      expect(m.stats.price).toBeLessThanOrEqual(3000);
     }
   });
   it("retorna vazio sob orçamento impossível", () =>

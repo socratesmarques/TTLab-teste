@@ -13,7 +13,7 @@ import {
   type Criteria,
   type Goal,
 } from "./model";
-import { blades, money, rubber, wood, type Build } from "./catalog";
+import { blades, rubbers, money, rubber, wood, type Build } from "./catalog";
 import { Radar } from "./Radar";
 const goals: Goal[] = [
   "Velocidade",
@@ -173,15 +173,15 @@ export function SearchLab({
               />
             </label>
             <label>
-              Fabricante
+              Fabricante das borrachas
               <select
                 value={c.brand}
-                onChange={(e) => update({ brand: e.target.value })}
+                onChange={(e) => update({ brand: e.target.value,hard:0 })}
               >
                 <option value="">Todos</option>
                 {[
                   ...new Set(
-                    blades.filter((b) => !b.generic).map((b) => b.brand),
+                    [...blades.filter((b) => !b.generic),...rubbers].map((b) => b.brand),
                   ),
                 ].map((x) => (
                   <option key={x}>{x}</option>
@@ -201,15 +201,15 @@ export function SearchLab({
             </label>
             {(["mm", "hard"] as const).map((k) => (
               <label key={k}>
-                {k === "mm" ? "Espessura (mm)" : "Dureza (° demo)"}
+                {k === "mm" ? "Espessura (mm)" : "Dureza (selecione a marca)"}
                 <select
                   value={c[k]}
                   onChange={(e) => update({ [k]: +e.target.value })}
                 >
                   <option value={0}>Qualquer</option>
                   {(k === "mm"
-                    ? [1.5, 1.8, 2, 2.1, 2.2]
-                    : [35, 37, 40, 42, 43, 44, 45, 46, 47, 50]
+                    ? [...new Set(rubbers.flatMap(r=>r.thickness))].sort((a,b)=>a-b)
+                    : [...new Set(rubbers.filter(r=>r.brand===c.brand).flatMap(r=>r.hardness))].sort((a,b)=>a-b)
                   ).map((x) => (
                     <option key={x}>{x}</option>
                   ))}
@@ -238,7 +238,7 @@ export function SearchLab({
             <SlidersHorizontal size={16} />
             {busy ? "Comparando combinações…" : "Buscar recomendações"}
           </button>
-          <p role="status">{error}</p>
+          {busy&&<button onClick={()=>{worker.current?.terminate();setBusy(false);setError("Busca cancelada.")}}>Cancelar busca</button>}<p role="status">{error}</p>
         </section>
         <section className="panel">
           <div className="row">
@@ -370,7 +370,7 @@ export function SearchLab({
               {original && (
                 <p>
                   Variação sobre a original · {m.stats.grams - original.grams} g
-                  · {money(m.stats.price - original.price)} ·{" "}
+                  · {money(m.stats.price!==null && original.price!==null?m.stats.price-original.price:null)} ·{" "}
                   {(m.stats.balance - original.balance).toFixed(1)} cm.
                 </p>
               )}

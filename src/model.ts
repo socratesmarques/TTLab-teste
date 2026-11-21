@@ -8,6 +8,7 @@ import {
   type Blade,
   type Rubber,
 } from "./catalog";
+import {compliance,numbers} from "./records";
 export const axes = [
   "Velocidade",
   "Efeito",
@@ -24,8 +25,8 @@ export const titles = { blade: "Madeira", fh: "Forehand", bh: "Backhand" };
 const bounded = (v: number) => Math.round(Math.min(100, Math.max(0, v)));
 function side(b: Blade, r: Rubber, f: Face) {
   const flex = 100 - b.rigidity,
-    soft = 100 - (f.hard - 30) * 3,
-    sponge = (f.mm - 1.4) * 85;
+    soft = r.record ? compliance(r) : 100 - (f.hard - 30) * 3,
+    sponge = bounded((f.mm - 1.2) * 75);
   const speed = 0.35 * b.rigidity + 0.48 * r.pace + 0.17 * sponge;
   const control = 102 - 0.45 * speed + 0.16 * soft - 0.08 * sponge;
   return [
@@ -45,17 +46,16 @@ export function analyze(build: Build) {
     f = rubber(build.fh),
     h = rubber(build.bh);
   if (!b || !f || !h || !build.fh || !build.bh) return null;
-  const mass = (r: Rubber, v: Face) =>
-    r.grams + 6 * (v.mm - 2) + 0.15 * (v.hard - r.hardness[0]);
-  const sheets = mass(f, build.fh) + mass(h, build.bh),
-    grams = b.grams + sheets;
-  return {
-    fh: side(b, f, build.fh),
-    bh: side(b, h, build.bh),
-    grams: Math.round(grams),
-    price: b.price + f.price + h.price,
-    balance: Math.round(((b.grams * 11 + sheets * 17.5) / grams) * 10) / 10,
-  };
+  return combine(b,faceData(b,f,build.fh),faceData(b,h,build.bh))
+}
+function faceData(b:Blade,r:Rubber,f:Face){
+ const [length=157,width=150]=numbers(b.record?.declared.Cabeça)
+ const areaFactor=(length*width)/(157*150)
+ return {values:side(b,r,f),grams:(r.grams+6*(f.mm-2))*areaFactor,price:r.price}
+}
+function combine(b:Blade,f:ReturnType<typeof faceData>,h:ReturnType<typeof faceData>){
+ const sheets=f.grams+h.grams,grams=b.grams+sheets
+ return {fh:f.values,bh:h.values,grams:Math.round(grams),price:b.price!==null&&f.price!==null&&h.price!==null?b.price+f.price+h.price:null,balance:Math.round((b.grams*11+sheets*17.5)/grams*10)/10}
 }
 export type Stats = NonNullable<ReturnType<typeof analyze>>;
 export const profiles = [
@@ -117,77 +117,40 @@ export function utility(s: Stats, goal: Goal) {
   if (goal === "Peso") return -s.grams;
   if (goal === "Equilíbrio") return -Math.abs(s.balance - 14) * 10;
   if (goal === "Custo-benefício")
-    return (100 * (s.fh[4] + s.bh[4] + s.fh[1] + s.bh[1])) / (4 * s.price);
+    return (100 * (s.fh[4] + s.bh[4] + s.fh[1] + s.bh[1])) / (4 * (s.price??Infinity));
   const axis = axes.indexOf(goal);
   return (s.fh[axis] + s.bh[axis]) / 2;
 }
 export type Match = { build: Build; stats: Stats; score: number; rank: number };
 export function optimize(origin: Build, c: Criteria) {
-  const original = analyze(origin),
-    matches: Match[] = [];
-  const variants = rubbers
-    .filter((r) => !c.brand || r.brand === c.brand)
-    .flatMap((r) =>
-      r.thickness
-        .filter((x) => !c.mm || x === c.mm)
-        .flatMap((mm) =>
-          r.hardness
-            .filter((x) => !c.hard || x === c.hard)
-            .map((hard) => ({ id: r.id, mm, hard })),
-        ),
-    );
-  let evaluated = 0;
-  for (const b of blades.filter((b) =>
-    c.keep ? b.id === origin.blade : !b.generic,
-  )) {
-    if (c.brand && b.brand !== c.brand) continue;
-    for (const fh of variants)
-      for (const bh of variants) {
-        if (
-          (c.sheets === "iguais" && fh.id !== bh.id) ||
-          (c.sheets === "diferentes" && fh.id === bh.id)
-        )
-          continue;
-        const build = { blade: b.id, fh, bh },
-          stats = analyze(build)!;
-        if (c.budget !== null && stats.price > c.budget) continue;
-        evaluated++;
-        const gain =
-          c.goal && original
-            ? utility(stats, c.goal) - utility(original, c.goal)
-            : 0;
-        if (c.goal && gain <= 0) continue;
-        const weights = [2, 2, 1, 1, 2, 1, 1, 1, 1];
-        const error =
-          sides.reduce(
-            (sum, k) =>
-              sum +
-              stats[k].reduce(
-                (v, x, i) => v + weights[i] * Math.abs(x - c[k][i]),
-                0,
-              ),
-            0,
-          ) / 24;
-        const score = Math.round(100 - error),
-          rank =
-            100 -
-            error +
-            (c.value ? Math.max(0, 20 - stats.price / 35) : 0) +
-            gain * 2;
-        matches.push({ build, stats, score, rank });
-      }
+  const original=analyze(origin), results:Match[]=[]
+  const priceRequired=c.budget!==null || c.goal==='Custo-benefício' || c.value
+  const candidates=rubbers.filter(r=>(!c.brand||r.brand===c.brand)&&(!priceRequired||r.price!==null)).flatMap(r=>
+    r.thickness.filter(mm=>!c.mm||mm===c.mm).flatMap(mm=>r.hardness.filter(h=>!c.hard||h===c.hard).map(hard=>({r,face:{id:r.id,mm,hard}}))))
+  const weights=[2,2,1,1,2,1,1,1,1]
+  const distance=(values:number[],target:number[])=>values.reduce((sum,n,i)=>sum+weights[i]*Math.abs(n-target[i]),0)/24
+  const order=(a:Match,b:Match)=>b.rank-a.rank||(a.stats.price??Infinity)-(b.stats.price??Infinity)
+  let evaluated=0
+  if(c.goal==='Custo-benefício' && original?.price==null)return {evaluated,results}
+  const woods=c.keep?[wood(origin)].filter((b):b is Blade=>!!b):blades.filter(b=>!b.generic)
+  for(const b of woods){
+   if((priceRequired&&b.price===null))continue
+   const variants=candidates.map(({r,face})=>{const data=faceData(b,r,face);return {face,data,fhError:distance(data.values,c.fh),bhError:distance(data.values,c.bh)}})
+   for(const fh of variants)for(const bh of variants){
+    if(c.sheets==='iguais'&&fh.face.id!==bh.face.id||c.sheets==='diferentes'&&fh.face.id===bh.face.id)continue
+    if(c.budget!==null&&(b.price!+fh.data.price!+bh.data.price!)>c.budget)continue
+    evaluated++
+    const stats=combine(b,fh.data,bh.data)
+    const gain=c.goal&&original?utility(stats,c.goal)-utility(original,c.goal):0
+    if(c.goal&&gain<=0)continue
+    const fit=100-fh.fhError-bh.bhError
+    const rank=fit+(c.value&&stats.price?Math.max(0,20-stats.price/175):0)+2*gain
+    const match={build:{blade:b.id,fh:fh.face,bh:bh.face},stats,score:Math.round(fit),rank}
+    if(results.length===5&&order(match,results[4])>=0)continue
+    const idx=results.findIndex(m=>m.build.blade===b.id&&m.build.fh?.id===fh.face.id&&m.build.bh?.id===bh.face.id)
+    if(idx!==-1){if(order(match,results[idx])>=0)continue;results.splice(idx,1)}
+    results.push(match);results.sort(order);if(results.length>5)results.pop()
+   }
   }
-  matches.sort((a, b) => b.rank - a.rank || a.stats.price - b.stats.price);
-  const seen = new Set<string>();
-  return {
-    evaluated,
-    results: matches
-      .filter((m) => {
-        const key = [m.build.blade, m.build.fh?.id, m.build.bh?.id].join("/");
-        if (seen.has(key)) return false;
-        seen.add(key);
-        return true;
-      })
-      .slice(0, 5),
-  };
+  return {evaluated,results}
 }

@@ -1,0 +1,1352 @@
+[
+  {
+    "name": "Viscaria",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/30041.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 Arylate-Carbon",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "5.8 mm",
+      "Cabo": "FL : 100×25×34 mm ST : 100×23×28 mm",
+      "Reação": "11.8",
+      "Vibração": "10.3"
+    },
+    "quote": {
+      "amount": 1655,
+      "currency": "BRL",
+      "shop": "JJYamada",
+      "date": "2026-11-20",
+      "url": "https://loja.jjyamada.com.br/madeira-raquete-de-madeira-p-tm-modelo-viscaria-alc"
+    }
+  },
+  {
+    "name": "Timo Boll ALC",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/35861.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 Arylate-Carbon",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "5.8 mm",
+      "Cabo": "FL : 100×24×34 mm ST : 100×22×27.5 mm AN : 100×24×34 mm",
+      "Reação": "11.8",
+      "Vibração": "10.3"
+    }
+  },
+  {
+    "name": "Timo Boll ZLC",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/35831.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply + 2 ZL-Carbon",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "5.5 mm",
+      "Cabo": "FL : 100×24×34 mm ST : 100×22×27.5 mm",
+      "Reação": "11.7",
+      "Vibração": "10.8"
+    }
+  },
+  {
+    "name": "Mizutani Jun Super ZLC",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/36601.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 Super ZLC",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "5.8 mm",
+      "Cabo": "FL : 100×24×34 mm ST : 100×22×27.5 mm",
+      "Reação": "12.5",
+      "Vibração": "11.6"
+    }
+  },
+  {
+    "name": "Mizutani Jun ZLC",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/36611.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 ZL-Carbon",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "5.7 mm",
+      "Cabo": "FL : 100×24×34 mm ST : 100×22×27.5 mm",
+      "Reação": "11.8",
+      "Vibração": "11.2"
+    }
+  },
+  {
+    "name": "Harimoto Tomokazu Innerforce Super ZLC",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/37021.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 Super ZLC [Innerfiber]",
+      "Cabeça": "158×152 mm",
+      "Lâmina": "6.2 mm",
+      "Cabo": "FL : 100×25×34 mm ST : 100×23×28 mm",
+      "Reação": "12.0",
+      "Vibração": "10.5"
+    }
+  },
+  {
+    "name": "Harimoto Tomokazu Innerforce ZLC",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/37031.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 ZL-Carbon [Innerfiber]",
+      "Cabeça": "158×152 mm",
+      "Lâmina": "5.7 mm",
+      "Cabo": "FL : 100×24×34 mm ST : 100×23×28 mm",
+      "Reação": "10.5",
+      "Vibração": "9.3"
+    }
+  },
+  {
+    "name": "Harimoto Tomokazu Innerforce ALC",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/36991.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 Arylate-Carbon [Innerfiber]",
+      "Cabeça": "158×152 mm",
+      "Lâmina": "6.0 mm",
+      "Cabo": "FL : 100×25×34 mm ST : 100×23×28 mm",
+      "Reação": "10.7",
+      "Vibração": "9.2"
+    }
+  },
+  {
+    "name": "Lin Yun-Ju Super ZLC",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/37131.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 Super ZL-Carbon",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "5.6 mm",
+      "Cabo": "FL : 100×25×34 mm",
+      "Reação": "12.3",
+      "Vibração": "11.1"
+    }
+  },
+  {
+    "name": "Ovtcharov Innerforce ALC",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/37091.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 Arylate-Carbon [Innerfiber]",
+      "Cabeça": "158×152 mm",
+      "Lâmina": "6.2 mm",
+      "Cabo": "FL : 100×25×34 mm ST : 100×23×28 mm",
+      "Reação": "11.7",
+      "Vibração": "10.5"
+    }
+  },
+  {
+    "name": "Franziska Innerforce ZLC",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/37121.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 ZL-Carbon [Innerfiber]",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "5.7 mm",
+      "Cabo": "FL : 100×24×34 mm",
+      "Reação": "10.5",
+      "Vibração": "9.5"
+    }
+  },
+  {
+    "name": "Innerforce Layer ZLC",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/36681.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 ZL-Carbon [Innerfiber]",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "5.7 mm",
+      "Cabo": "FL : 100×24×34 mm ST : 100×23×28 mm AN : 100×24×34 mm",
+      "Reação": "10.5",
+      "Vibração": "9.5"
+    }
+  },
+  {
+    "name": "Innerforce Layer ALC",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/36701.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 Arylate-Carbon [Innerfiber]",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "6.0 mm",
+      "Cabo": "FL : 100×25×34 mm ST : 100×23×28 mm AN : 100×25×34 mm",
+      "Reação": "10.7",
+      "Vibração": "9.4"
+    }
+  },
+  {
+    "name": "Innerforce Layer ALC.S",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/36861.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 Arylate-Carbon [Innerfiber]",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "5.5 mm",
+      "Cabo": "FL : 100×24×34 mm ST : 100×23×28 mm AN : 100×24×34 mm",
+      "Reação": "10.1",
+      "Vibração": "8.4"
+    }
+  },
+  {
+    "name": "Freitas ALC",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/36841.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 Arylate-Carbon",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "6.0 mm",
+      "Cabo": "FL : 100×25×34 mm ST : 100×23×28 mm",
+      "Reação": "11.4",
+      "Vibração": "10.8"
+    }
+  },
+  {
+    "name": "Apolonia ZLC",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/36831.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 ZL-Carbon [Innerfiber]",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "5.7 mm",
+      "Cabo": "FL : 100×24×34 mm",
+      "Reação": "10.5",
+      "Vibração": "9.5"
+    }
+  },
+  {
+    "name": "Revoldia CNF",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/37061.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 Cellulose Nanofiber",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "5.7 mm",
+      "Cabo": "FL : 100×24×34 mm",
+      "Reação": "11.7",
+      "Vibração": "9.5"
+    }
+  },
+  {
+    "name": "Timo Boll Spirit",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/30811.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood + 2 Arylate-Carbon",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "5.8 mm",
+      "Cabo": "FL : 100×24×34 mm",
+      "Reação": "11.8",
+      "Vibração": "10.3"
+    }
+  },
+  {
+    "name": "Primorac Carbon",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/30101.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "3-ply wood + 2 T5000",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "7.0 mm",
+      "Cabo": "FL : 100×25×35 mm ST : 100×23×28 mm",
+      "Reação": "12.5",
+      "Vibração": "13.3"
+    },
+    "quote": {
+      "amount": 1087.0,
+      "currency": "BRL",
+      "shop": "JJYamada",
+      "date": "2026-11-20",
+      "url": "https://loja.jjyamada.com.br/raquete-de-madeira-para-tenis-de-mesa-sem-borracha-modelo-primorac-carbon"
+    }
+  },
+  {
+    "name": "Timo Boll CAF",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/36951.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "3-ply wood + 2 CA-Fiber",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "5.7 mm",
+      "Cabo": "FL : 100×24×34 mm ST : 100×22×28 mm",
+      "Reação": "10.6",
+      "Vibração": "10.4"
+    }
+  },
+  {
+    "name": "Timo Boll TJ",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/36941.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "3-ply wood + 2 T5000",
+      "Cabeça": "154×146 mm",
+      "Lâmina": "5.2 mm",
+      "Cabo": "FL : 95×21×30 mm",
+      "Reação": "10.5",
+      "Vibração": "11.4"
+    }
+  },
+  {
+    "name": "SK Carbon",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/36891.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "3-ply wood + 2 T5000",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "5.2 mm",
+      "Cabo": "FL : 100×24×34 mm ST : 100×23×28 mm",
+      "Reação": "10.5",
+      "Vibração": "10.5"
+    }
+  },
+  {
+    "name": "Sardius",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/30091.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "3-ply wood + 2 T5000",
+      "Cabeça": "158×152 mm",
+      "Lâmina": "7.2 mm",
+      "Cabo": "FL : 100×25×35 mm",
+      "Reação": "12.8",
+      "Vibração": "14.4"
+    }
+  },
+  {
+    "name": "Kumpuru",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/30651.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "3-ply wood + 2 T5000",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "5.7 mm",
+      "Cabo": "FL : 100×25×34 mm",
+      "Reação": "9.3",
+      "Vibração": "9.5"
+    }
+  },
+  {
+    "name": "SK7 Classic",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/36881.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "7-ply wood",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "6.8 mm",
+      "Cabo": "FL : 100×25×34 mm ST : 100×23×28 mm",
+      "Reação": "11.1",
+      "Vibração": "9.3"
+    }
+  },
+  {
+    "name": "Korbel SK7",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/35811.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "7-ply wood",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "6.8 mm",
+      "Cabo": "FL : 100×24×35 mm ST : 100×23×28 mm",
+      "Reação": "11.1",
+      "Vibração": "9.3"
+    }
+  },
+  {
+    "name": "Petr Korbel",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/30271.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood",
+      "Cabeça": "158×152 mm",
+      "Lâmina": "5.9 mm",
+      "Cabo": "FL : 100×24×34 mm ST : 100×23×28 mm",
+      "Reação": "10.6",
+      "Vibração": "8.2"
+    },
+    "quote": {
+      "amount": 815.0,
+      "currency": "BRL",
+      "shop": "JJYamada",
+      "date": "2026-11-20",
+      "url": "https://loja.jjyamada.com.br/raquete-de-madeira-para-tenis-de-mesa-sem-borracha-modelo-korbel"
+    }
+  },
+  {
+    "name": "Maze Advance",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/37141.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "6.7 mm",
+      "Cabo": "FL : 100×24×34 mm",
+      "Reação": "10.6",
+      "Vibração": "10.2"
+    }
+  },
+  {
+    "name": "Primorac",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/30551.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood",
+      "Cabeça": "157×150 mm",
+      "Lâmina": "5.5 mm",
+      "Cabo": "FL : 100×25×34 mm",
+      "Reação": "9.7",
+      "Vibração": "7.6"
+    }
+  },
+  {
+    "name": "Timo Boll J",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/36931.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood",
+      "Cabeça": "152×144 mm",
+      "Lâmina": "6.1 mm",
+      "Cabo": "FL : 92×22×30 mm",
+      "Reação": "10.4",
+      "Vibração": "10.6"
+    }
+  },
+  {
+    "name": "TB5α",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/37001.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood",
+      "Cabeça": "158×152 mm",
+      "Lâmina": "6.4 mm",
+      "Cabo": "FL : 100×26×33 mm",
+      "Reação": "11.0",
+      "Vibração": "9.5"
+    }
+  },
+  {
+    "name": "Xstar V",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/37011.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Offensive shakehand",
+      "Composição": "5-ply wood",
+      "Cabeça": "158×152 mm",
+      "Lâmina": "5.6 mm",
+      "Cabo": "FL : 100×24×33 mm",
+      "Reação": "10.0",
+      "Vibração": "8.2"
+    }
+  },
+  {
+    "name": "Innershield Layer ZLF",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/36691.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Defensive shakehand",
+      "Composição": "5-ply wood + 2 ZL-Fiber [Innerfiber]",
+      "Cabeça": "166×155 mm",
+      "Lâmina": "5.1 mm",
+      "Cabo": "FL : 100×24×34 mm ST : 100×23×30 mm",
+      "Reação": "5.5",
+      "Vibração": "4.9"
+    }
+  },
+  {
+    "name": "Diode V",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/36961.html",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Defensive shakehand",
+      "Composição": "5-ply wood",
+      "Cabeça": "165×156 mm",
+      "Lâmina": "5.7 mm",
+      "Cabo": "FL : 100×24×34 mm ST : 100×23×28 mm",
+      "Reação": "10.6",
+      "Vibração": "7.9"
+    }
+  },
+  {
+    "name": "Zyre 03",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/06140.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge X, Ricosheet",
+      "Velocidade": "88",
+      "Efeito": "100",
+      "Arco": "96",
+      "Dureza": "44",
+      "Espessuras": "2.7, 2.5"
+    }
+  },
+  {
+    "name": "Glayzer",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/06100.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge X",
+      "Velocidade": "81",
+      "Efeito": "73",
+      "Arco": "82",
+      "Dureza": "38",
+      "Espessuras": "2.1, 1.9"
+    }
+  },
+  {
+    "name": "Glayzer 09C",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/06110.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High friction High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge X",
+      "Velocidade": "75",
+      "Efeito": "87",
+      "Arco": "95",
+      "Dureza": "42",
+      "Espessuras": "2.1, 1.9"
+    }
+  },
+  {
+    "name": "Dignics 09C",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/06070.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High friction High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge X",
+      "Velocidade": "79",
+      "Efeito": "96",
+      "Arco": "96",
+      "Dureza": "44",
+      "Espessuras": "2.1, 1.9"
+    }
+  },
+  {
+    "name": "Dignics 05",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/06040.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge X",
+      "Velocidade": "86",
+      "Efeito": "85",
+      "Arco": "88",
+      "Dureza": "40",
+      "Espessuras": "2.1, 1.9"
+    }
+  },
+  {
+    "name": "Dignics 80",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/06050.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge X",
+      "Velocidade": "88",
+      "Efeito": "82",
+      "Arco": "86",
+      "Dureza": "40",
+      "Espessuras": "2.1, 1.9"
+    }
+  },
+  {
+    "name": "Dignics 64",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/06060.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge X",
+      "Velocidade": "90",
+      "Efeito": "79",
+      "Arco": "84",
+      "Dureza": "40",
+      "Espessuras": "2.1, 1.9"
+    }
+  },
+  {
+    "name": "Tenergy 19",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/06090.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge",
+      "Velocidade": "84",
+      "Efeito": "75",
+      "Arco": "78",
+      "Dureza": "36",
+      "Espessuras": "2.1, 1.9, 1.7"
+    }
+  },
+  {
+    "name": "Tenergy 05",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/05800.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge",
+      "Velocidade": "83",
+      "Efeito": "76",
+      "Arco": "79",
+      "Dureza": "36",
+      "Espessuras": "2.1, 1.9, 1.7"
+    },
+    "quote": {
+      "amount": 537,
+      "currency": "BRL",
+      "shop": "JJYamada",
+      "date": "2026-11-20",
+      "url": "https://loja.jjyamada.com.br/borracha-para-tenis-de-mesa-modelo-tenergy-05"
+    }
+  },
+  {
+    "name": "Tenergy 05 Hard",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/06030.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge",
+      "Velocidade": "82",
+      "Efeito": "96",
+      "Arco": "92",
+      "Dureza": "43",
+      "Espessuras": "2.1, 1.9"
+    },
+    "quote": {
+      "amount": 537,
+      "currency": "BRL",
+      "shop": "JJYamada",
+      "date": "2026-11-20",
+      "url": "https://loja.jjyamada.com.br/borracha-para-tenis-de-mesa-modelo-tenergy-05-hard"
+    }
+  },
+  {
+    "name": "Tenergy 05 FX",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/05900.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge",
+      "Velocidade": "81",
+      "Efeito": "64",
+      "Arco": "65",
+      "Dureza": "32",
+      "Espessuras": "2.1, 1.9, 1.7"
+    }
+  },
+  {
+    "name": "Tenergy 64",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/05820.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge",
+      "Velocidade": "87",
+      "Efeito": "70",
+      "Arco": "75",
+      "Dureza": "36",
+      "Espessuras": "2.1, 1.9, 1.7"
+    }
+  },
+  {
+    "name": "Tenergy 64 FX",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/05920.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge",
+      "Velocidade": "85",
+      "Efeito": "58",
+      "Arco": "61",
+      "Dureza": "32",
+      "Espessuras": "2.1, 1.9, 1.7"
+    }
+  },
+  {
+    "name": "Tenergy 80",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/05930.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge",
+      "Velocidade": "85",
+      "Efeito": "73",
+      "Arco": "77",
+      "Dureza": "36",
+      "Espessuras": "2.1, 1.9, 1.7"
+    }
+  },
+  {
+    "name": "Tenergy 80 FX",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/05940.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge",
+      "Velocidade": "83",
+      "Efeito": "61",
+      "Arco": "63",
+      "Dureza": "32",
+      "Espessuras": "2.1, 1.9, 1.7"
+    }
+  },
+  {
+    "name": "Tenergy 25",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/05810.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge",
+      "Velocidade": "64",
+      "Efeito": "76",
+      "Arco": "86",
+      "Dureza": "36",
+      "Espessuras": "2.1, 1.9, 1.7"
+    }
+  },
+  {
+    "name": "Tenergy 25 FX",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/05910.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge",
+      "Velocidade": "62",
+      "Efeito": "64",
+      "Arco": "72",
+      "Dureza": "32",
+      "Espessuras": "2.1, 1.9, 1.7"
+    }
+  },
+  {
+    "name": "Rozena",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/06020.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension, Spring Sponge",
+      "Velocidade": "83",
+      "Efeito": "70",
+      "Arco": "75",
+      "Dureza": "35",
+      "Espessuras": "2.1, 1.9, 1.7"
+    },
+    "quote": {
+      "amount": 390,
+      "currency": "BRL",
+      "shop": "JJYamada",
+      "date": "2026-11-20",
+      "url": "https://loja.jjyamada.com.br/borracha-para-tenis-de-mesa-modelo-rozena"
+    }
+  },
+  {
+    "name": "Roundell",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/05860.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High Tension pimples-in",
+      "Tecnologia": "High Tension",
+      "Velocidade": "77",
+      "Efeito": "43",
+      "Arco": "58",
+      "Dureza": "35",
+      "Espessuras": "2.1, 1.9, 1.7"
+    }
+  },
+  {
+    "name": "Sriver",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/05050.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Pimples-in",
+      "Velocidade": "38",
+      "Efeito": "23",
+      "Arco": "23",
+      "Dureza": "38",
+      "Espessuras": "2.1, 1.9, 1.7"
+    }
+  },
+  {
+    "name": "Sriver EL",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/05380.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Pimples-in",
+      "Velocidade": "38",
+      "Efeito": "19",
+      "Arco": "19",
+      "Dureza": "35",
+      "Espessuras": "2.1, 1.9, 1.7"
+    }
+  },
+  {
+    "name": "Flextra",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/05210.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "Pimples-in",
+      "Velocidade": "29",
+      "Efeito": "10",
+      "Arco": "15",
+      "Dureza": "32",
+      "Espessuras": "2.1, 1.9, 1.7, 1.5"
+    },
+    "quote": {
+      "amount": 177.0,
+      "currency": "BRL",
+      "shop": "JJYamada",
+      "date": "2026-11-20",
+      "url": "https://loja.jjyamada.com.br/borracha-para-tenis-de-mesa-modelo-flextra"
+    }
+  },
+  {
+    "name": "Tackiness Chop",
+    "brand": "Butterfly",
+    "url": "https://www.butterfly-global.com/en/products/detail/05450.html",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Tipo": "High friction pimples-in",
+      "Velocidade": "16",
+      "Efeito": "16",
+      "Arco": "27",
+      "Dureza": "32",
+      "Espessuras": "1.9, 1.7, 1.3"
+    }
+  },
+  {
+    "name": "Clipper Wood",
+    "brand": "STIGA",
+    "url": "https://www.stigasports.com/en/product/clipper-wood",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Estilo": "Offensive",
+      "Velocidade": "8.2",
+      "Controle": "4.9",
+      "Peso (g)": "80 - 95",
+      "Superfície": "Limba",
+      "Camadas": "7"
+    }
+  },
+  {
+    "name": "CYBERSHAPE® Carbon",
+    "brand": "STIGA",
+    "url": "https://www.stigasports.com/en/product/cybershape-carbon",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Estilo": "Offensive +",
+      "Velocidade": "9.0",
+      "Controle": "4.4",
+      "Peso (g)": "80 - 95",
+      "Superfície": "Black",
+      "Camadas": "5+2 (Close core fiber)"
+    }
+  },
+  {
+    "name": "CYBERSHAPE® Wood",
+    "brand": "STIGA",
+    "url": "https://www.stigasports.com/en/product/cybershape-wood",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Estilo": "Offensive",
+      "Velocidade": "8.1",
+      "Controle": "5.4",
+      "Peso (g)": "80 - 95",
+      "Superfície": "Limba",
+      "Camadas": "5"
+    }
+  },
+  {
+    "name": "Allround Classic",
+    "brand": "STIGA",
+    "url": "https://www.stigasports.com/en/product/allround-classic",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Estilo": "Allround",
+      "Velocidade": "4.1",
+      "Controle": "8.8",
+      "Peso (g)": "75 - 90",
+      "Superfície": "Limba"
+    }
+  },
+  {
+    "name": "Offensive Classic",
+    "brand": "STIGA",
+    "url": "https://www.stigasports.com/en/product/offensive-classic",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Estilo": "Offensive",
+      "Velocidade": "7.1",
+      "Controle": "6.0",
+      "Peso (g)": "75 - 90",
+      "Superfície": "Limba"
+    }
+  },
+  {
+    "name": "Allround Evolution",
+    "brand": "STIGA",
+    "url": "https://www.stigasports.com/en/product/allround-evolution",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Estilo": "Allround",
+      "Velocidade": "6.3",
+      "Controle": "6.8",
+      "Peso (g)": "75 - 90",
+      "Superfície": "Limba"
+    }
+  },
+  {
+    "name": "DNA Platinum M",
+    "brand": "STIGA",
+    "url": "https://www.stigasports.com/en/product/dna-platinum-m",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Estilo": "Offensive +",
+      "Velocidade": "160",
+      "Efeito": "140",
+      "Controle": "76",
+      "Superfície": "Standard",
+      "Dureza": "47.5",
+      "Espessuras": "2.1, 2.3",
+      "Tipo": "Lisa",
+      "Tecnologia": "DNA"
+    }
+  },
+  {
+    "name": "DNA Platinum S",
+    "brand": "STIGA",
+    "url": "https://www.stigasports.com/en/product/dna-platinum-s",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Estilo": "Offensive +",
+      "Velocidade": "156",
+      "Efeito": "140",
+      "Controle": "78",
+      "Superfície": "Standard",
+      "Dureza": "42.5",
+      "Espessuras": "2.1, 2.3",
+      "Tipo": "Lisa",
+      "Tecnologia": "DNA"
+    }
+  },
+  {
+    "name": "DNA Platinum H",
+    "brand": "STIGA",
+    "url": "https://www.stigasports.com/en/product/dna-platinum-h",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Estilo": "Offensive +",
+      "Velocidade": "164",
+      "Efeito": "140",
+      "Controle": "74",
+      "Superfície": "Standard",
+      "Dureza": "50",
+      "Espessuras": "2.1, 2.3",
+      "Tipo": "Lisa",
+      "Tecnologia": "DNA"
+    }
+  },
+  {
+    "name": "DNA Platinum XH",
+    "brand": "STIGA",
+    "url": "https://www.stigasports.com/en/product/dna-platinum-xh",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Estilo": "Offensive +",
+      "Velocidade": "168",
+      "Efeito": "140",
+      "Controle": "72",
+      "Superfície": "Standard",
+      "Dureza": "52.5",
+      "Espessuras": "2.3",
+      "Tipo": "Lisa",
+      "Tecnologia": "DNA"
+    }
+  },
+  {
+    "name": "DNA Hybrid M",
+    "brand": "STIGA",
+    "url": "https://www.stigasports.com/en/product/dna-hybrid-m",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Estilo": "Offensive",
+      "Velocidade": "156",
+      "Efeito": "144",
+      "Controle": "78",
+      "Superfície": "Semi-Sticky",
+      "Dureza": "47.5",
+      "Espessuras": "2.2",
+      "Tipo": "Lisa",
+      "Tecnologia": "DNA"
+    }
+  },
+  {
+    "name": "DNA Hybrid H",
+    "brand": "STIGA",
+    "url": "https://www.stigasports.com/en/product/dna-hybrid-h",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Estilo": "Offensive",
+      "Velocidade": "160",
+      "Efeito": "144",
+      "Controle": "76",
+      "Superfície": "Semi-Sticky",
+      "Dureza": "50",
+      "Espessuras": "2.2",
+      "Tipo": "Lisa",
+      "Tecnologia": "DNA"
+    }
+  },
+  {
+    "name": "DNA Hybrid XH",
+    "brand": "STIGA",
+    "url": "https://www.stigasports.com/en/product/dna-hybrid-xh",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Estilo": "Offensive",
+      "Velocidade": "164",
+      "Efeito": "144",
+      "Controle": "74",
+      "Superfície": "Semi-Sticky",
+      "Dureza": "52.5",
+      "Espessuras": "2.2",
+      "Tipo": "Lisa",
+      "Tecnologia": "DNA"
+    }
+  },
+  {
+    "name": "Mantra Pro M",
+    "brand": "STIGA",
+    "url": "https://www.stigasports.com/en/product/mantra-pro-m",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Velocidade": "148",
+      "Efeito": "135",
+      "Controle": "82",
+      "Superfície": "Standard",
+      "Dureza": "47.5",
+      "Espessuras": "2.1",
+      "Tipo": "Lisa",
+      "Tecnologia": "Mantra"
+    }
+  },
+  {
+    "name": "Mantra Pro H",
+    "brand": "STIGA",
+    "url": "https://www.stigasports.com/en/product/mantra-pro-h",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Estilo": "Offensive",
+      "Velocidade": "152",
+      "Efeito": "135",
+      "Controle": "80",
+      "Superfície": "Standard",
+      "Dureza": "50",
+      "Espessuras": "2.1",
+      "Tipo": "Lisa",
+      "Tecnologia": "Mantra"
+    }
+  },
+  {
+    "name": "Mantra Pro XH",
+    "brand": "STIGA",
+    "url": "https://www.stigasports.com/en/product/mantra-pro-xh",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Estilo": "Offensive",
+      "Velocidade": "156",
+      "Efeito": "135",
+      "Controle": "78",
+      "Superfície": "Standard",
+      "Dureza": "53",
+      "Espessuras": "2.1",
+      "Tipo": "Lisa",
+      "Tecnologia": "Mantra"
+    }
+  },
+  {
+    "name": "Rasanter R47",
+    "brand": "andro",
+    "url": "https://www.andro.de/en/node/46",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Espessuras": "1.7, 2.0",
+      "Outras opções": "Ultramax",
+      "Dureza": "47",
+      "Tecnologia": "TENSOR",
+      "Tipo": "Lisa"
+    }
+  },
+  {
+    "name": "Rasanter R48",
+    "brand": "andro",
+    "url": "https://www.andro.de/en/node/43",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Espessuras": "1.7, 2.0",
+      "Outras opções": "Ultramax",
+      "Dureza": "48",
+      "Tecnologia": "TENSOR",
+      "Tipo": "Lisa"
+    }
+  },
+  {
+    "name": "Rasanter R42",
+    "brand": "andro",
+    "url": "https://www.andro.de/en/node/48",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Espessuras": "1.7, 2.0",
+      "Outras opções": "Ultramax",
+      "Dureza": "42",
+      "Tecnologia": "TENSOR",
+      "Tipo": "Lisa"
+    }
+  },
+  {
+    "name": "Rasanter R53",
+    "brand": "andro",
+    "url": "https://www.andro.de/en/node/44",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Espessuras": "1.7, 2.0",
+      "Outras opções": "Ultramax",
+      "Dureza": "53",
+      "Tecnologia": "TENSOR",
+      "Tipo": "Lisa"
+    }
+  },
+  {
+    "name": "Rasanter R45",
+    "brand": "andro",
+    "url": "https://www.andro.de/en/rasanter-r45",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Espessuras": "1.7, 2.0",
+      "Outras opções": "Ultramax",
+      "Dureza": "45",
+      "Tecnologia": "TENSOR",
+      "Tipo": "Lisa"
+    }
+  },
+  {
+    "name": "VEGA Europe",
+    "brand": "XIOM",
+    "url": "https://www.xiom.eu/vega-euro?lang=de",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Espessuras": "1.8, 2.0",
+      "Outras opções": "MAX",
+      "Dureza": "42.5",
+      "Tecnologia": "TENSOR",
+      "Tipo": "Lisa"
+    }
+  },
+  {
+    "name": "V>15 Extra",
+    "brand": "VICTAS",
+    "url": "https://www.victas.com/products/detail.html?id=781",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Espessuras": "2.0",
+      "Outras opções": "MAX",
+      "Dureza": "47.5 ±3",
+      "Tipo": "Lisa tensionada"
+    }
+  },
+  {
+    "name": "Rakza 7 Soft",
+    "brand": "Yasaka",
+    "url": "https://yasakatabletennis.com/products/rakza-7-soft",
+    "kind": "rubber",
+    "checked": "2026-11-20",
+    "declared": {
+      "Espessuras": "1.8, 2.0",
+      "Outras opções": "Max",
+      "Dureza": "~40",
+      "Velocidade": "84",
+      "Efeito": "88",
+      "Controle": "67",
+      "Tipo": "Lisa"
+    }
+  },
+  {
+    "name": "Sweden Extra",
+    "brand": "Yasaka",
+    "url": "https://yasakatabletennis.com/products/sweden-extra",
+    "kind": "blade",
+    "checked": "2026-11-20",
+    "declared": {
+      "Camadas": "5",
+      "Composição": "5 folhas de madeira",
+      "Cabo": "Anatômico, côncavo, caneta, reto",
+      "Velocidade": "70",
+      "Controle": "77"
+    }
+  }
+]

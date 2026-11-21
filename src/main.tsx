@@ -216,7 +216,7 @@ function App() {
                 <div className="sectionTitle">
                   <Box />
                   <h2>Bancada 3D</h2>
-                  <small className="demo">Catálogo demo</small>
+                  <small className="demo">Catálogo verificado</small>
                 </div>
                 <Viewer build={build} />
               </div>
@@ -251,7 +251,7 @@ function App() {
                     {[
                       [Weight, "Peso estimado", stats.grams + " g"],
                       [Scale, "Ponto de equilíbrio", stats.balance + " cm"],
-                      [Wallet, "Custo estimado", money(stats.price)],
+                      [Wallet, "Cotações · nov/2026", money(stats.price)],
                     ].map(([Icon, label, value]) => {
                       const I = Icon as typeof Weight;
                       return (
@@ -311,7 +311,7 @@ function App() {
           <TableTennisPaddle size={17} />
           <b>TTLab</b>
           <span>
-            Catálogo demonstrativo · Preços, dimensões e desempenho são
+            Catálogo verificadonstrativo · Preços, dimensões e desempenho são
             estimativas.
           </span>
         </footer>

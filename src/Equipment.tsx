@@ -95,7 +95,7 @@ export function Picker({
           </button>
         ))}
       </div>
-      <h3>{search ? "Resultados" : "Sugestões do catálogo demo"}</h3>
+      <h3>{search ? "Resultados" : "Equipamentos disponíveis"}</h3>
       {items.length === 0 && (
         <p>
           Nenhum equipamento encontrado. Experimente outro nome ou fabricante.
@@ -236,7 +236,7 @@ export function Parts({
                       >
                         {item.hardness.map((x) => (
                           <option key={x} value={x}>
-                            {x}° demo
+                            {x}° {item.brand}
                           </option>
                         ))}
                       </select>
