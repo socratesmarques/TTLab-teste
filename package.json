@@ -6,7 +6,8 @@
     "test": "vitest run",
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:e2e": "npm run build && python tests/browser.py"
   },
   "repository": {
     "type": "git",
